@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.test.internettask.ui.home.viewmodel.ShowInternetSpeedViewModel" />
+
+        <variable
+            name="uploadSpeed"
+            type="String" />
+
+        <variable
+            name="downloadSpeed"
+            type="String" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16dp"
+            android:id="@+id/tv_upload_title"
+            android:textAlignment="center"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/tv_up_speed"
+            app:layout_constraintEnd_toEndOf="@id/tv_up_speed"
+            app:layout_constraintStart_toStartOf="@id/tv_up_speed" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_up_speed"
+            style="@style/OutlineTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{uploadSpeed ?? "No data"}'
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tv_down_speed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.30" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_16dp"
+            android:textAlignment="center"
+            android:id="@+id/tv_download_title"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@id/tv_down_speed"
+            app:layout_constraintEnd_toEndOf="@id/tv_down_speed"
+            app:layout_constraintStart_toStartOf="@id/tv_down_speed" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_down_speed"
+            style="@style/OutlineTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{downloadSpeed ?? "No data"}'
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_up_speed"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.30" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_submit"
+            style="@style/SubmitButtonTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_32dp"
+            android:enabled="false"
+            android:text="@string/submit"
+            app:layout_constraintBottom_toTopOf="@id/btn_search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_search"
+            style="@style/SubmitButtonTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_32dp"
+            android:enabled="true"
+            android:text="@string/search_it"
+            app:icon="@drawable/ic_baseline_search_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <include
+            android:id="@+id/full_screen_loading"
+            layout="@layout/full_screen_loading"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186308913347",
+    "project_id": "internet-speed-fc9d9",
+    "storage_bucket": "internet-speed-fc9d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186308913347:android:9a0f64cfb015c17c399a76",
+        "android_client_info": {
+          "package_name": "com.test.internettask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186308913347-4c7ojn305n04tcsmk20vvioi4596e4bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg5kTHassN9vU5Rfe0JkOx6Bj-jj25bIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186308913347-4c7ojn305n04tcsmk20vvioi4596e4bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

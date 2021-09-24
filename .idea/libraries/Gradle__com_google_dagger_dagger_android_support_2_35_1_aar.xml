@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:dagger-android-support:2.35.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6957f3a4000c702d487a9d48edec9ec7/dagger-android-support-2.35.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/329a8596c85232235000df5f78159355/dagger-android-support-2.35.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b03b425e09625192f13f69c7b1017a5/dagger-android-support-2.35.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b03b425e09625192f13f69c7b1017a5/dagger-android-support-2.35.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6b03b425e09625192f13f69c7b1017a5/dagger-android-support-2.35.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.35.1/92ee8042abc530c43b3095e828ff58ab21120d/dagger-android-support-2.35.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android-support/2.35.1/d5530d69bb026cc8504abff4125925bff4541fc0/dagger-android-support-2.35.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

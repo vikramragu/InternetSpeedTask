@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/network_navigation"
+    app:startDestination="@id/showInternetSpeedFragment">
+
+    <fragment
+        android:id="@+id/showInternetSpeedFragment"
+        android:name="com.test.internettask.ui.home.fragment.ShowInternetSpeedFragment"
+        android:label="ShowInternetSpeedFragment">
+        <action
+            android:id="@+id/action_showInternetSpeedFragment_to_searchInternetSpeedFragment"
+            app:destination="@id/searchInternetSpeedFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchInternetSpeedFragment"
+        android:name="com.test.internettask.ui.home.fragment.SearchInternetSpeedFragment"
+        android:label="SearchInternetSpeedFragment" />
+
+</navigation>

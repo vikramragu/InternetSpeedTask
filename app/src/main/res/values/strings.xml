@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InternetTask</string>
+    <string name="_download_speed">Download speed</string>
+    <string name="_upload_speed">Upload speed</string>
+    <string name="_mbps">in Mb/s</string>
+    <string name="submit">Submit</string>
+    <string name="search_it">Search it</string>
+    <string name="_last_known_time_stamp">Last known time stamp</string>
+</resources>

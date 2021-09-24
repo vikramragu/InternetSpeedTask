@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:viewbinding:4.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/52449d3cd65ce355c9cfbc71decc9669/viewbinding-4.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d303c4816d44603593f4f92b0d37e30/viewbinding-4.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2bedffcdb52372e2aada6612b23fcc0f/viewbinding-4.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/052c11021ec99ff58682011c12a7822b/viewbinding-4.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/052c11021ec99ff58682011c12a7822b/viewbinding-4.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/052c11021ec99ff58682011c12a7822b/viewbinding-4.2.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/4.2.0/96e718eaa45095b41c48c82eb3bb3b5237e6f828/viewbinding-4.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
