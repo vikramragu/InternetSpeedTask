@@ -6,4 +6,8 @@
     <string name="submit">Submit</string>
     <string name="search_it">Search it</string>
     <string name="_last_known_time_stamp">Last known time stamp</string>
+    <string name="_ping_failed">Ping Failed</string>
+    <string name="_pinging">Pinging</string>
+    <string name="_calculating">Calculating</string>
+    <string name="_no_internet">No internet</string>
 </resources>

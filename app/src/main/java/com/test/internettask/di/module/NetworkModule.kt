@@ -19,7 +19,7 @@ import javax.inject.Singleton
 class NetworkModule {
 
     companion object {
-        val TIMESTAMP = "dd-MM-yyyy HH:mm:ss"
+        val TIMESTAMP = "dd-MM-yyyy HH:mm:ss aa"
     }
 
 

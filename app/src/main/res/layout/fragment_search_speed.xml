@@ -62,7 +62,7 @@
             android:layout_margin="@dimen/_16dp"
             android:layout_marginTop="24dp"
             android:maxLines="2"
-            android:text='@{timeStamp ?? "No data"}'
+            android:text='@{upSpeed ?? "No data"}'
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_up_speed_title" />
@@ -88,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_16dp"
-            android:text='@{upSpeed ?? "No data"}'
+            android:text='@{timeStamp ?? "No data"}'
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_last_known_time_title" />

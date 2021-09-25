@@ -37,6 +37,6 @@ class ShowInternetSpeedViewModel @Inject constructor(
 
     fun getTelephonyManagerInstance() = telephonyManager
 
-    private fun getTimeStamp() = simpleDateFormat.format(Date())
+    fun getTimeStamp() = simpleDateFormat.format(Date())
 
 }

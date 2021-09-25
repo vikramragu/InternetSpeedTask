@@ -156,8 +156,8 @@ class ShowInternetSpeedFragment :
                         when (it) {
                             Response.Loading -> {
                                 databinding.apply {
-                                    this.downloadSpeed = "Calculating"
-                                    this.uploadSpeed = "Calculating"
+                                    this.downloadSpeed = getString(R.string._calculating)
+                                    this.uploadSpeed = getString(R.string._calculating)
                                 }
                             }
 
@@ -167,8 +167,8 @@ class ShowInternetSpeedFragment :
 
                             is Response.Error -> {
                                 databinding.apply {
-                                    this.uploadSpeed = "No internet"
-                                    this.downloadSpeed = "No internet"
+                                    this.uploadSpeed = getString(R.string._no_internet)
+                                    this.downloadSpeed = getString(R.string._no_internet)
                                 }
                                 databinding.btnSubmit.disabled()
                             }
@@ -189,6 +189,7 @@ class ShowInternetSpeedFragment :
                 databinding.apply {
                     this.downloadSpeed = response.downStreamSpeed
                     this.uploadSpeed = response.upstreamSpeed
+                    this.timeStamp = this@ShowInternetSpeedFragment.viewModel.getTimeStamp()
                 }
                 databinding.btnSubmit.enabled()
             }
@@ -199,21 +200,21 @@ class ShowInternetSpeedFragment :
 
             NetworkResponseModel.OnInternetConnected -> {
                 databinding.apply {
-                    this.downloadSpeed = "Calculating"
-                    this.uploadSpeed = "Calculating"
+                    this.downloadSpeed = getString(R.string._calculating)
+                    this.uploadSpeed = getString(R.string._calculating)
                 }
             }
 
             NetworkResponseModel.Pinging -> {
                 databinding.apply {
-                    this.downloadSpeed = "Pinging"
-                    this.uploadSpeed = "Pinging"
+                    this.downloadSpeed = getString(R.string._pinging)
+                    this.uploadSpeed = getString(R.string._pinging)
                 }
             }
             NetworkResponseModel.PingingFailed -> {
                 databinding.apply {
-                    this.downloadSpeed = "Ping failed"
-                    this.uploadSpeed = "Ping failed"
+                    this.downloadSpeed = getString(R.string._ping_failed)
+                    this.uploadSpeed = getString(R.string._ping_failed)
                 }
             }
             is NetworkResponseModel.UploadTest -> {
